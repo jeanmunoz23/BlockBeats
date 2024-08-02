@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="flex flex-col flex-grow"> 
+      <div className="flex md:flex-col flex-grow"> 
           <Hero />
           {/* 
           <p>

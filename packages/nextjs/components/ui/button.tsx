@@ -16,8 +16,8 @@ const buttonSizeClasses: Record<ButtonSize, string> = {
 };
 
 const buttonVariantClasses: Record<ButtonVariant, string> = {
-  primary: "flex justify-between text-white border-[1px] border-white rounded-3xl px-6 py-3",
-  secondary: "flex justify-between bg-gradient-to-r from-green to-purple rounded-3xl px-6 py-3",
+  primary: "flex items-center justify-between text-white border-[1px] border-white rounded-3xl px-6 py-3",
+  secondary: "flex items-center justify-between bg-gradient-to-r from-green to-purple rounded-3xl px-6 py-3",
 };
 
 export const Button: FC<ButtonProps> = ({ children, size = "small", variant = "primary" }) => (

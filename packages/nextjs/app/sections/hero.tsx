@@ -17,7 +17,7 @@ export default function Hero() {
         </p>
         <div className="flex items-center">
           <div >
-            <span className="mr-10">Powered by</span>
+            <span className="mr-10 text-[13px]">Powered by</span>
             <Image src={scrollLogo} width={74} height={20} alt="Scroll logo" />
           </div>
           <Button>

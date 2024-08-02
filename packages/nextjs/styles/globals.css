@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root,
 [data-theme] {
@@ -8,19 +9,42 @@
 }
 
 body {
+  background-color: #0B0B0D;
   min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-h1,
 h2,
 h3,
 h4 {
+  font-weight: regular;
   margin-bottom: 0.5rem;
   line-height: 1;
 }
 
+h1 {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 64px;
+}
+
+h4 {
+  font-size: 60px;
+}
+
 p {
   margin: 1rem 0;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .btn {
@@ -29,4 +53,26 @@ p {
 
 .btn.btn-ghost {
   @apply shadow-none;
+}
+
+/* Font */
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: regular;
+  font-style: normal;
+}
+header>div{
+  backdrop-filter: blur(10px);
+}
+#hero {
+  background: url(./../public/circle_gradient.svg) top left no-repeat , url(./../public/hero_bg.svg) top no-repeat;
+  background-size: cover;
 }

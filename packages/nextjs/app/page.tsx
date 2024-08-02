@@ -1,5 +1,6 @@
 "use client";
 
+import Marquee from "~~/components/marquee";
 import Hero from "./sections/hero";
 import type { NextPage } from "next";
 //import { useAccount } from "wagmi";
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
     <>
       <div className="flex md:flex-col flex-grow"> 
           <Hero />
+          <Marquee/>
           {/* 
           <p>
             Address:

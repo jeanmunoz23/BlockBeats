@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import chain from './../../public/chain.svg';
 export default function HowWorks() {
   return (
     <section>
@@ -12,7 +13,9 @@ export default function HowWorks() {
             crypto. You can now produce any music content that cannot be counterfeited.
           </p>
         </div>
-        <div className="md:w-1/2"></div>
+        <div className="md:w-1/2">
+        <Image src={chain} width={523} height={358} alt="Chains"/>
+        </div>
       </div>
     </section>
   );

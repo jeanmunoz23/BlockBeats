@@ -78,7 +78,10 @@ header>div {
   backdrop-filter: blur(10px);
 }
 section >div{
-  padding: 50px 20px;
+  padding: 50px 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
 }
 #hero {
   background: url(./../public/circle_gradient.svg) top left no-repeat, url(./../public/hero_bg.svg) top no-repeat;

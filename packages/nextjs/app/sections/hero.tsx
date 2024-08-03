@@ -6,7 +6,7 @@ import { Button } from "~~/components/ui/button";
 
 export default function Hero() {
   return (
-    <section id="hero" className="flex flex-col alignt-items justify-center min-h-screen">
+    <section id="hero" className="flex flex-col justify-center min-h-screen">
       <div>
         <h1>
           Revolutionize Music <br /> Creation with Blockchain
@@ -16,7 +16,7 @@ export default function Hero() {
           the upcoming year — undoubtedly changing the trajectory of countless budding music careers.{" "}
         </p>
         <div className="flex items-center">
-          <div >
+          <div>
             <span className="mr-10 text-[13px]">Powered by</span>
             <Image src={scrollLogo} width={74} height={20} alt="Scroll logo" />
           </div>

@@ -109,11 +109,11 @@ export const Header = () => {
               <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />
             </div>
           </Link>
-          </div>
-          <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">
-            <HeaderMenuLinks />
-          </ul>
-      
+        </div>
+        <ul className="hidden lg:flex lg:flex-nowrap menu menu-horizontal px-1 gap-2">
+          <HeaderMenuLinks />
+        </ul>
+
         <div className="navbar-end mr-4 flex">
           <RainbowKitCustomConnectButton />
         </div>

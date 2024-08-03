@@ -2,7 +2,7 @@
 
 // @refresh reset
 import { Balance } from "../Balance";
-import { AddressInfoDropdown } from "./AddressInfoDropdown"; 
+import { AddressInfoDropdown } from "./AddressInfoDropdown";
 import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Address } from "viem";
@@ -48,13 +48,14 @@ export const RainbowKitCustomConnectButton = () => {
                       {chain.name}
                     </span>
                   </div>
-                {}  <AddressInfoDropdown
+                  {}{" "}
+                  <AddressInfoDropdown
                     address={account.address as Address}
                     displayName={account.displayName}
                     ensAvatar={account.ensAvatar}
                     blockExplorerAddressLink={blockExplorerAddressLink}
                   />
-                 </>
+                </>
               );
             })()}
           </>

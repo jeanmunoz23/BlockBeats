@@ -19,6 +19,7 @@ export default function Marquee() {
         <li className="marquee__item"><HiOutlineGlobeAlt/> &nbsp;new way to reach the new fan &nbsp; </li>
         <li className="marquee__item"><HiOutlineGlobeAlt/> &nbsp;new way to reach the new fan &nbsp; </li>
         <li className="marquee__item"><HiOutlineGlobeAlt/> &nbsp;new way to reach the new fan &nbsp; </li>
+
       </ul>
     </div>
   );

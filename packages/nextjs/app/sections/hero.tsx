@@ -7,7 +7,7 @@ import { Button } from "~~/components/ui/button";
 export default function Hero() {
   return (
     <section id="hero" className="flex flex-col alignt-items justify-center min-h-screen">
-      <div className="px-8">
+      <div>
         <h1>
           Revolutionize Music <br /> Creation with Blockchain
         </h1>

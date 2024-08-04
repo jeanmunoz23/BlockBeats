@@ -10,8 +10,8 @@ import { GoPlus } from "react-icons/go";
 
 export default function AudioInput() {
   return (
-    <div>
-      <h5>Input</h5>
+    <div className="md:w-[60%] mt-20">
+      <h6>Input</h6>
       <div className="flex mt-4">
         <Link href="" className="text-white border-white border-b-2 mr-6 pb-4">
           AUDIO INPUT

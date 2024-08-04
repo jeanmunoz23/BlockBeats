@@ -9,7 +9,7 @@ import { InputSerach } from "~~/components/ui/inputSerach";
 export default function Dashboard() {
   return (
     <div className="md:flex mt-[120px]">
-      <nav className="md:max-w-[250px] pr-20">
+      <nav className="md:min-w-[350px] pr-20 pl-10">
         <button className="bg-white text-black rounded-md w-full p-2 text-center mb-10">USER</button>
         <ul>
           <AsideMenuLinks />

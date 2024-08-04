@@ -5,6 +5,7 @@ import { Balance } from "../Balance";
 import { AddressInfoDropdown } from "./AddressInfoDropdown";
 import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Link from "next/link";
 import { Address } from "viem";
 import { useNetworkColor } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
@@ -43,6 +44,13 @@ export const RainbowKitCustomConnectButton = () => {
               return (
                 <>
                   <div className="flex items-center mr-1">
+                  <Link
+                    href="/dashboard"
+                    passHref
+                    className="text-ocre font-bold text-base border-r-[1px] border-ocre pr-2"
+                  >
+                   DashBoard
+                  </Link>
                     <Balance address={account.address as Address} className="min-h-0 h-auto" />
                     <span className="text-xs" style={{ color: networkColor }}>
                       {chain.name}

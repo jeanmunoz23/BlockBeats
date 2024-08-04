@@ -1,5 +1,6 @@
 import React from "react";
 import dataMusics from "../../components/data/data";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MusicCard } from "~~/components/musicCard";
 import { Button } from "~~/components/ui/button";
 
@@ -32,6 +33,12 @@ export default function PlayList() {
               />
             );
           })}
+        </div>
+        <div className="flex justify-center mt-20">
+          <Button>
+            <span className="mr-2">Discover More Music NFT </span>
+            <MdOutlineKeyboardArrowRight />
+          </Button>
         </div>
       </div>
     </section>

@@ -42,13 +42,18 @@ h4 {
 }
 
 h5 {
-  font-size: 48px;
+  font-size: 46px;
 }
-
+h6{
+  font-size: 22px;
+}
 p {
   margin: 1rem 0;
   font-weight: 300;
   font-size: 18px;
+}
+.subP {
+  font-size: 12px;
 }
 
 .btn {
@@ -127,8 +132,8 @@ HTML CSSResult Skip Results Iframe EDIT ON .marquee {
 
 .music_card::before {
   content: "";
-  width: 196px;
-  height: 246px;
+  width: 378px;
+  height: 445px;
   border: 2px solid white;
   position: absolute;
   top: 50px;

@@ -2,7 +2,7 @@
 
 import Hero from "./sections/hero";
 import HowWorks from "./sections/howWorks";
-import Mission from "./sections/mission";
+import PlayList from "./sections/playList";
 import WhyChoose from "./sections/whyChoose";
 import type { NextPage } from "next";
 import Marquee from "~~/components/marquee";
@@ -18,8 +18,8 @@ const Home: NextPage = () => {
       <Hero />
       <Marquee />
       <HowWorks />
-      <Mission />
       <WhyChoose />
+      <PlayList />
       {/* 
           <p>
             Address:

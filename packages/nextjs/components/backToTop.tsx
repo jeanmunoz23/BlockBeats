@@ -30,7 +30,7 @@ export default function BackToTopButton() {
             className="flex items-center bg-black text-white rounded-full p-2 hover:bg-gray-900 transition mr-10"
           >
             <IoArrowUpCircleOutline size={24} />
-            <span className="ml-4 text-[22px]">Back to the top</span>
+            <span className="ml-4 text-[22px]">Ir al comienzo</span>
           </button>
         </div>
       ) : (

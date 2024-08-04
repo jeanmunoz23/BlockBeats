@@ -10,10 +10,10 @@ export default function PlayList() {
       <div>
         <div className="md:flex justify-between ">
           <h2>
-            Discover <br /> music NFT
+            Descubrir <br /> Pistas y Más
           </h2>
           <div className="flex flex-wrap items-center md:self-end">
-            <p className="mr-2">Muisc Genre</p>
+            <p className="mr-2">Género Músical</p>
             <Button size="xsmall">Rock</Button>
             <Button size="xsmall">Pop</Button>
             <Button size="xsmall">K-Pop</Button>
@@ -36,7 +36,7 @@ export default function PlayList() {
         </div>
         <div className="flex justify-center mt-20">
           <Button>
-            <span className="mr-2">Discover More Music NFT </span>
+            <span className="mr-2">Descubrir más música </span>
             <MdOutlineKeyboardArrowRight size={24} />
           </Button>
         </div>

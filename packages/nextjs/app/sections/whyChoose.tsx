@@ -54,11 +54,13 @@ export default function WhyChoose() {
             <Image src={reputationSystem} alt="Real time colaboration" width={130} height={130} />
           </div>
         </WhyChooseCard>
-        <div className="smart-contract max-w-[1500px] m-auto p-10 rounded-lg">
-          <h3 className="text-[28px] leading-1">Seguridad y Transparencia:</h3>
-          <p>Aprovecha el poder de los contratos inteligentes para transacciones seguras y transparentes.</p>
-          <div className="md:flex mt-20">
-            <Image src={scroll} alt="Scroll" width={46} height={46} />
+        <div className="col-span-2 flex justify-between items-center p-10 rounded-lg">
+          <div className=" md:w-1/2">
+            <h3 className="text-[28px] leading-1">Seguridad y Transparencia:</h3>
+            <p>Aprovecha el poder de los contratos inteligentes para transacciones seguras y transparentes.</p>
+          </div>
+          <div className="md:flex mt-20 md:w-1/4">
+            <Image src={scroll} alt="Scroll" width={200} height={200} />
           </div>
         </div>
       </div>

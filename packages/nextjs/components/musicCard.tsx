@@ -23,7 +23,7 @@ export const MusicCard: FC<MusicCardProps> = ({ title = " ", scroll = 0.3234, to
       </div>
       <span>{token} tokens</span>
     </div>
-    <div className="flex justify-between items-center pb-4 max-w-[330px]">
+    <div className="flex justify-between items-center pb-4 max-w-[330px] w-full">
       <Button>
         <span className="mr-2">Play now</span> <CiPlay1 />
       </Button>

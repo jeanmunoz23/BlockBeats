@@ -8,11 +8,11 @@ export default function PlayList() {
   return (
     <section>
       <div>
-        <div className="flex justify-between ">
+        <div className="md:flex justify-between ">
           <h2>
             Discover <br /> music NFT
           </h2>
-          <div className="flex items-center self-end">
+          <div className="flex flex-wrap items-center md:self-end">
             <p className="mr-2">Muisc Genre</p>
             <Button size="xsmall">Rock</Button>
             <Button size="xsmall">Pop</Button>
@@ -21,7 +21,7 @@ export default function PlayList() {
             <Button size="xsmall">Funk</Button>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-20 mt-20">
+        <div className="grid md:grid-cols-3 gap-20 mt-20">
           {dataMusics.map(music => {
             return (
               <MusicCard
@@ -37,7 +37,7 @@ export default function PlayList() {
         <div className="flex justify-center mt-20">
           <Button>
             <span className="mr-2">Discover More Music NFT </span>
-            <MdOutlineKeyboardArrowRight />
+            <MdOutlineKeyboardArrowRight size={24} />
           </Button>
         </div>
       </div>

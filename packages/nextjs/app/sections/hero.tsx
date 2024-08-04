@@ -21,7 +21,7 @@ export default function Hero() {
             <Image src={scrollLogo} width={74} height={20} alt="Scroll logo" />
           </div>
           <Button>
-            Get started <MdOutlineKeyboardArrowRight />{" "}
+            <span className="mr-2">Get started</span> <MdOutlineKeyboardArrowRight size={24} />{" "}
           </Button>
         </div>
       </div>

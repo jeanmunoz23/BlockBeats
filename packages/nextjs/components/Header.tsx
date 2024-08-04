@@ -4,8 +4,8 @@ import React, { useCallback, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { FaBars } from "react-icons/fa";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import { Bars3Icon } from "@heroicons/react/24/outline";
 import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
@@ -77,8 +77,8 @@ export const Header = () => {
 
   return (
     <header>
-      <div className="flex items-center fixed top-0 navbar  min-h-20 flex-shrink-0 justify-between z-20 shadow-md shadow-secondary px-0 sm:px-2 w-full">
-        <div className="navbar-start w-auto flex">
+      <div className="px-5 md:flex items-center fixed top-0 navbar  min-h-20 flex-shrink-0 justify-between z-20 shadow-md shadow-secondary px-0 sm:px-2 w-full">
+        <div className="navbar-start w-auto md:flex">
           <div className="lg:hidden dropdown" ref={burgerMenuRef}>
             <label
               tabIndex={0}
@@ -87,7 +87,7 @@ export const Header = () => {
                 setIsDrawerOpen(prevIsOpenState => !prevIsOpenState);
               }}
             >
-              <Bars3Icon className="h-1/2" />
+              <FaBars />
             </label>
             {isDrawerOpen && (
               <ul
@@ -114,7 +114,7 @@ export const Header = () => {
           <HeaderMenuLinks />
         </ul>
 
-        <div className="navbar-end mr-4 flex">
+        <div className="navbar-end mr-4 md:flex">
           <RainbowKitCustomConnectButton />
         </div>
       </div>

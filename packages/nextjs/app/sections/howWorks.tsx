@@ -7,11 +7,10 @@ export default function HowWorks() {
     <section>
       <div className="md:flex justtify-between">
         <div className="md:w-1/2">
-          <h2>How do Music NFTs work?</h2>
+          <h2>Experimenta el futuro de la música en la cadena de bloques.</h2>
           <p>
-            NFTs are unique assets stored and tradable on a blockchain. They are, immutable, scarce and publicly
-            verifiable. In the music world, artistes get to sell limited digital content to their fans who pay via
-            crypto. You can now produce any music content that cannot be counterfeited.
+            Únete a EthicalMusic y descubre cómo la tecnología blockchain está revolucionando la creación musical.
+            ¡Sé parte del cambio y experimenta una nueva era en la música digital!
           </p>
         </div>
         <div className="md:w-1/2 flex justify-center">

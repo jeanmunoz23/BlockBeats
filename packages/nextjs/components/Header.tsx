@@ -17,22 +17,22 @@ type HeaderMenuLink = {
 
 export const menuLinks: HeaderMenuLink[] = [
   {
-    label: "Learn",
+    label: "Aprender",
     href: "/",
     icon: <MdOutlineKeyboardArrowDown className="h-4 w-4" />,
   },
   {
-    label: "Build",
+    label: "Construir",
     href: "/",
     icon: <MdOutlineKeyboardArrowDown className="h-4 w-4" />,
   },
   {
-    label: "Network",
+    label: "Alianzas",
     href: "/",
     icon: <MdOutlineKeyboardArrowDown className="h-4 w-4" />,
   },
   {
-    label: "Community",
+    label: "Comunidad",
     href: "/",
     icon: <MdOutlineKeyboardArrowDown className="h-4 w-4" />,
   },
@@ -103,7 +103,7 @@ export const Header = () => {
           </div>
           <Link href="/" passHref className="hidden lg:flex items-center gap-2 ml-4 mr-6 shrink-0">
             <div className="flex flex-col">
-              <span className="font-bold leading-tight">Music BlockBeats</span>
+              <span className="font-bold leading-tight">Ethical Music</span>
             </div>
             <div className="flex relative w-10 h-10">
               <Image alt="SE2 logo" className="cursor-pointer" fill src="/logo.svg" />

@@ -9,11 +9,11 @@ export default function Hero() {
     <section id="hero" className="flex flex-col justify-center min-h-screen">
       <div>
         <h1>
-          Revolutionize Music <br /> Creation with Blockchain
+          Redifinir la música. <br /> Ethical Music
         </h1>
         <p className="md:max-w-[670px] mb-16">
-          Music NFTs will continue to revolutionize the way that artists and fans create community together as we enter
-          the upcoming year — undoubtedly changing the trajectory of countless budding music careers.{" "}
+          Cualquiera, en cualquier lugar, puede contribuir a tu música. Compartí tus ritmos, melodías o letras. Nuestra
+          plataforma rompe barreras y nivela el terreno de juego.{" "}
         </p>
         <div className="flex items-center">
           <div>
@@ -21,7 +21,7 @@ export default function Hero() {
             <Image src={scrollLogo} width={74} height={20} alt="Scroll logo" />
           </div>
           <Button>
-            <span className="mr-2">Get started</span> <MdOutlineKeyboardArrowRight size={24} />{" "}
+            <span className="mr-2">Empezar</span> <MdOutlineKeyboardArrowRight size={24} />{" "}
           </Button>
         </div>
       </div>

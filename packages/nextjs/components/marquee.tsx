@@ -6,49 +6,49 @@ export default function Marquee() {
     <div className="marquee">
       <ul className="marquee__content">
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs &nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFT&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
         <li className="marquee__item">
-          <HiOutlineGlobeAlt /> &nbsp;Collaborate, Create, and Monetize Your Music through NFTs&nbsp;{" "}
+          <HiOutlineGlobeAlt /> &nbsp;Colabora, Crea, Monetiza tu Música con EthicalMusic&nbsp;{" "}
         </li>
       </ul>
     </div>

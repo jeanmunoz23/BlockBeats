@@ -1,80 +1,62 @@
-# 🏗 Scaffold-ETH 2
+# EthicalMusic🎶
 
-<h4 align="center">
-  <a href="https://docs.scaffoldeth.io">Documentation</a> |
-  <a href="https://scaffoldeth.io">Website</a>
-</h4>
+## Descripción
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+EthicalMusic es una innovadora plataforma de colaboración musical basada en blockchain. Permite a músicos crear, colaborar y monetizar sus pistas músicales, garantizando trazabilidad y transparencia en todo el proceso creativo. Los fans pueden disfrutar de todo el proceso exclusivo y participar activamente en la comunidad. EthicalMusic asegura una compensación justa para los artistas y empodera a los creadores con herramientas avanzadas.
 
-⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
+## Modelo Freemium
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks](https://docs.scaffoldeth.io/hooks/)**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://docs.scaffoldeth.io/components/): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+- **Versión básica gratuita:** Acceso limitado a ciertas funcionalidades y pistas musicales.
+- **Contenido Exclusivo para Suscriptores Premium:**
+  - Desbloqueo de contenido completo: Acceso a todas las funcionalidades y pistas musicales avanzadas.
+  - Eventos exclusivos: Participación en seminarios web, sesiones en vivo y material adicional exclusivo.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+## Contratos en el Proyecto
 
-## Requirements
+- **Contrato de Colaboración Musical:** Permite a los músicos subir, combinar y crear nuevas pistas de manera colaborativa, con gobernanza descentralizada para la aprobación final.
+- **NFT Marketplace:** - A futuro - Plataforma para la compra y venta de pistas musicales como NFTs, garantizando la autenticidad y la propiedad digital.
 
-Before you begin, you need to install the following tools:
+## Contratos en el Proyecto
 
-- [Node (>= v18.17)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+- **Scroll Transaction Hash (Txhash) Details**: deployed to 0xb86c10560b96D1e2299F8aD11b35180A5449D694
+Block explorer URL: https://blockscout.scroll.io/address/0xb86c10560b96D1e2299F8aD11b35180A5449D694
+- **Scroll Transaction Hash (Txhash) Details**: deployed to 0xF21b5820f3a1d4312f1797eb50CE5bFba2287493
+Block explorer URL: https://blockscout.scroll.io/address/0xF21b5820f3a1d4312f1797eb50CE5bFba2287493
+- **Scroll Transaction Hash (Txhash) Details**: deployed to 0x0eecF7FB180AD8327b7575ea8Be9465Ba52b5288
+Block explorer URL: https://blockscout.scroll.io/address/0x0eecF7FB180AD8327b7575ea8Be9465Ba52b5288
 
-## Quickstart
+## Funcionalidades
 
-To get started with Scaffold-ETH 2, follow the steps below:
+- **Interfaz amigable:** Diseño intuitivo y fácil de usar para todos los niveles de experiencia.
+- **Colaboración en tiempo real:** Facilita la co-creación de música con otros artistas.
+- **Trazabilidad y transparencia:** Registra cada paso del proceso creativo en la blockchain.
 
-1. Install dependencies if it was skipped in CLI:
+## Beneficios para los Oyentes
 
-```
-cd my-dapp-example
-yarn install
-```
+- **Acceso a música exclusiva:** Descubre y disfruta de pistas únicas no disponibles en otras plataformas.
+- **Participación comunitaria:** Forma parte de una comunidad activa, vota en proyectos y participa en el proceso creativo.
+- **Inversiones musicales:** Compra NFTs de pistas y beneficia de futuras ventas y regalías.
 
-2. Run a local network in the first terminal:
+## Instalación
 
-```
-yarn chain
-```
-
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `packages/hardhat/hardhat.config.ts`.
-
-3. On a second terminal, deploy the test contract:
-
-```
-yarn deploy
+Luego, ejecutar los siguientes comandos:
+```bash
+- yarn install # instala dependencias
+- yarn chain # genera las cadenas
+- yarn deploy # realiza el deploy de los contratos localmente con esas cadenas
+- yarn start # levanta el proyecto
 ```
 
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
+### Configurar el ambiente utilizando Docker
 
-4. On a third terminal, start your NextJS app:
-
+```bash
+- git clone https://github.com/jeanmunoz23/BlockBeats/
+- cd BlockBeats
+- docker-compose up
 ```
-yarn start
-```
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
+## Creadoras
 
-Run smart contract test with `yarn hardhat:test`
-
-- Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
-- Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
-- Edit your deployment scripts in `packages/hardhat/deploy`
-
-
-## Documentation
-
-Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building with Scaffold-ETH 2.
-
-To know more about its features, check out our [website](https://scaffoldeth.io).
-
-## Contributing to Scaffold-ETH 2
-
-We welcome contributions to Scaffold-ETH 2!
-
-Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+- [Gabriela Mancini](https://www.linkedin.com/in/gabrielamancini/)
+- [Jeanette Elizabeth Muñoz](https://www.linkedin.com/in/jeanette-elizabeth-mu%C3%B1oz/)
+- [Maria Elisa Araya](https://www.linkedin.com/in/arayamariaelisa/) 

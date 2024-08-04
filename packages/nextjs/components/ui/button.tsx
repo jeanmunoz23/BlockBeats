@@ -2,7 +2,7 @@ import { FC } from "react";
 import clsx from "clsx";
 
 type ButtonSize = "xsmall" | "small" | "medium";
-type ButtonVariant = "primary" | "secondary";
+type ButtonVariant = "active" | "primary" | "secondary";
 
 interface ButtonProps {
   size?: ButtonSize;
@@ -17,6 +17,7 @@ const buttonSizeClasses: Record<ButtonSize, string> = {
 };
 
 const buttonVariantClasses: Record<ButtonVariant, string> = {
+  active: "flex items-center justify-between text-black bg-white border-[1px] border-white rounded-3xl mr-2",
   primary: "flex items-center justify-between text-white border-[1px] border-white rounded-3xl mr-2",
   secondary: "flex items-center justify-between bg-gradient-to-r from-green to-purple rounded-3xl mr-2",
 };

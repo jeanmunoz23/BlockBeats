@@ -1,11 +1,11 @@
 "use client";
 
 // @refresh reset
+import Link from "next/link";
 import { Balance } from "../Balance";
 import { AddressInfoDropdown } from "./AddressInfoDropdown";
 import { WrongNetworkDropdown } from "./WrongNetworkDropdown";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import Link from "next/link";
 import { Address } from "viem";
 import { useNetworkColor } from "~~/hooks/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
@@ -43,26 +43,26 @@ export const RainbowKitCustomConnectButton = () => {
 
               return (
                 <>
-                  <div className="flex items-center mr-1">
                   <Link
                     href="/dashboard"
                     passHref
-                    className="text-white font-bold border-r-[1px] border-stone-300 pr-2"
+                    className="mr-[150px] text-white font-bold border-r-[1px] border-l-[1px] border-stone-300 px-2"
                   >
-                   DashBoard
+                    DashBoard
                   </Link>
+                  <div className="flex items-center mr-1">
                     <Balance address={account.address as Address} className="min-h-0 h-auto" />
                     <span className="text-xs" style={{ color: networkColor }}>
                       {chain.name}
                     </span>
+                    {}{" "}
+                    <AddressInfoDropdown
+                      address={account.address as Address}
+                      displayName={account.displayName}
+                      ensAvatar={account.ensAvatar}
+                      blockExplorerAddressLink={blockExplorerAddressLink}
+                    />
                   </div>
-                  {}{" "}
-                  <AddressInfoDropdown
-                    address={account.address as Address}
-                    displayName={account.displayName}
-                    ensAvatar={account.ensAvatar}
-                    blockExplorerAddressLink={blockExplorerAddressLink}
-                  />
                 </>
               );
             })()}

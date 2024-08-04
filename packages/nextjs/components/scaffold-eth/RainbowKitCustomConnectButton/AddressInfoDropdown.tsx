@@ -47,7 +47,7 @@ export const AddressInfoDropdown = ({
 
   return (
     <>
-      <details ref={dropdownRef} className="dropdown dropdown-end leading-3">
+      <details ref={dropdownRef} className="dropdown dropdown-end leading-3 top-[25px] right-[10px]">
         <summary
           tabIndex={0}
           className="btn btn-secondary btn-sm pl-0 pr-2 shadow-md dropdown-toggle flex items-center ml-4 gap-0 !h-auto"

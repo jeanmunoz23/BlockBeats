@@ -4,9 +4,9 @@ import React, { useCallback, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { RainbowKitCustomConnectButton } from "./scaffold-eth";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import { RainbowKitCustomConnectButton } from "~~/components/scaffold-eth";
 import { useOutsideClick } from "~~/hooks/scaffold-eth";
 
 type HeaderMenuLink = {
@@ -114,7 +114,7 @@ export const Header = () => {
           <HeaderMenuLinks />
         </ul>
 
-        <div className="navbar-end mr-4 md:flex border-white border-2 rounded-lg px-4 py-2">
+        <div className="flex items-center">
           <RainbowKitCustomConnectButton />
         </div>
       </div>

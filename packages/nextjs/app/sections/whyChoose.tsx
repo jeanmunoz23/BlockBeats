@@ -59,7 +59,7 @@ export default function WhyChoose() {
             <h3 className="text-[28px] leading-1">Seguridad y Transparencia:</h3>
             <p>Aprovecha el poder de los contratos inteligentes para transacciones seguras y transparentes.</p>
           </div>
-          <div className="md:flex mt-20 md:w-1/4">
+          <div className="md:flex mt-20 md:w-1/3">
             <Image src={scroll} alt="Scroll" width={200} height={200} />
           </div>
         </div>

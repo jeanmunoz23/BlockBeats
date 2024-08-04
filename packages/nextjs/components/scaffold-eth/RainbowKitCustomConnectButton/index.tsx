@@ -47,7 +47,7 @@ export const RainbowKitCustomConnectButton = () => {
                   <Link
                     href="/dashboard"
                     passHref
-                    className="text-ocre font-bold text-base border-r-[1px] border-ocre pr-2"
+                    className="text-white font-bold border-r-[1px] border-stone-300 pr-2"
                   >
                    DashBoard
                   </Link>

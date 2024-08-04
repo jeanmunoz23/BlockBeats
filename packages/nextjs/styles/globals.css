@@ -16,7 +16,9 @@ body {
   font-style: normal;
   overflow-x: hidden;
 }
-
+a{
+  list-style: none;
+}
 h2,
 h3,
 h4 {

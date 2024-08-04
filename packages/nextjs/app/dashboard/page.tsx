@@ -1,4 +1,5 @@
 import React from "react";
+import AudioInput from "../../components/audioInput";
 import AsideMenuLinks from "~~/components/asideNav";
 import SelectVocie from "~~/components/selectVocie";
 import { InputSerach } from "~~/components/ui/inputSerach";
@@ -15,7 +16,11 @@ export default function Dashboard() {
       <div className="md:w-[80%]">
         <InputSerach />
         <SelectVocie />
+        <div className="flex">
+        <AudioInput />
       </div>
+      </div>
+     
     </div>
   );
 }
